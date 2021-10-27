@@ -1,0 +1,45 @@
+#page_404 {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+}
+#page_404 .inner {
+    margin: auto;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+#page_404 .content-wrap {
+    text-align: center;
+}
+#page_404 .content-wrap h2 {
+    font-size: 14rem; 
+    margin: 0;
+    color: #fff;
+}
+#page_404 .content-wrap p {
+    font-size: 3rem;
+    color: #fff;
+    font-family: 'Patua One', cursive;
+}
+#page_404 .content-wrap .button.more-link{
+    margin: 13px 0 0 41px;
+    border-radius: 0;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: calc(12pt + .2vw);
+    padding: 5px 54px;
+    background-image: none;
+    background-color: #206b1f;
+    border: 8px solid #206b1f;
+    transition: all .3s;
+}
+#page_404 .content-wrap .button.more-link:hover {
+    background-color: #3a322b;
+    border: 8px solid #3a322b;
+}

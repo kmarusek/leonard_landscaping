@@ -1,0 +1,54 @@
+ol {
+    list-style: decimal;
+    margin: 0 0 2rem 0;
+    padding-left: 1.25rem; }
+    ol li {
+      padding-left: 0.25rem; }
+  
+  ul {
+    list-style: none;
+    margin: 0 0 2rem 0;
+    padding-left: 0; }
+    ul.plain {
+      list-style: none;
+      padding-left: 0; }
+      ul.plain li {
+        margin-bottom: 1rem; }
+        ul.plain li .icon {
+          border-radius: 100%;
+          color: #3b5ff7;
+          display: inline-block;
+          margin-right: 1rem;
+          text-align: center;
+          width: 4rem;
+          height: 4rem;
+          line-height: 4rem;
+          background: #262324;
+        }
+          ul.plain li .icon:hover {
+            color: #ffffff;
+            background: #02e3fd;
+          }
+    ul.alt {
+      list-style: none;
+      padding-left: 0; }
+      ul.alt li {
+        border-top: solid 1px;
+        padding: 0.75rem 0; }
+        ul.alt li:first-child {
+          border-top: 0;
+          padding-top: 0; }
+        ul.alt li:last-child {
+          padding-bottom: 0; }
+  
+  dl {
+    margin: 0 0 2rem 0; }
+    dl dt {
+      display: block;
+      font-weight: 600;
+      margin: 0 0 1rem 0; }
+    dl dd {
+      margin-left: 1.5rem; }
+  
+  ul.alt li {
+    border-top-color: rgba(0, 0, 0, 0.25); }

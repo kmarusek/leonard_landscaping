@@ -1,0 +1,65 @@
+.gallery-container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+}
+
+.gallery-container .content img {
+    width: 23.45vw;
+    height: 23.45vw;
+    margin: 10px;
+    object-fit: cover;
+}
+.gallery-container .content a:hover{
+    opacity: 0.5;
+}
+
+/* Filter Bar */
+.isotope-filter {
+    background-color: #1e1d21;
+}
+.isotope-filter {
+    width: 100%;
+}
+.isotope-filter ul {
+    list-style: none;
+    padding: 0;
+}
+.isotope-filter li{
+    font-family: 'Patua One', cursive;
+    display: inline-block;
+    padding: 20px 3.64vw;
+    font-size: calc(14pt + .8vw);
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 1s ease;
+}
+.isotope-filter li:hover {
+    color: #fff;
+    background: #206b1f;
+    transition: all 1s ease;
+}
+.isotope-filter li.active {
+    color: #fff;
+    background: #206b1f;   
+}
+.lightboxOverlay{
+    outline: 0;
+}
+
+
+@media only screen and (max-width: 650px){
+    .isotope-filter li{
+        display: block;
+        text-align: center;
+        padding: 9px 3.64vw;
+        font-size: calc(13pt + .01vw);
+    }
+    .gallery-container .content img {
+        width: 44vw;
+        height: 44vw;
+    }
+}
